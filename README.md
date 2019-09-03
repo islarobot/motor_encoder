@@ -11,4 +11,8 @@ https://medium.com/luosrobotics/an-introduction-to-pid-control-with-dc-motor-1fa
 
 https://www.techkingdom.org/single-post/2017/02/07/Arduino-DC-Motor-Speed-Control-using-PID---Coming-Soon
 
+bueno: https://create.arduino.cc/projecthub/whitebank/arduino-motor-pid-speed-control-5f4632
+
+
+
 Motors: Mistumi M25N-2
