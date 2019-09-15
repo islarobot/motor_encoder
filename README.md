@@ -13,6 +13,6 @@ https://www.techkingdom.org/single-post/2017/02/07/Arduino-DC-Motor-Speed-Contro
 
 bueno: https://create.arduino.cc/projecthub/whitebank/arduino-motor-pid-speed-control-5f4632
 
-
+muy bueno: https://www.reddit.com/r/arduino/comments/5l3qw4/swinging_pendulum_using_motor_with_encoder_wheel/
 
 Motors: Mistumi M25N-2
