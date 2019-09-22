@@ -15,6 +15,8 @@ bueno: https://create.arduino.cc/projecthub/whitebank/arduino-motor-pid-speed-co
 
 muy bueno: https://www.reddit.com/r/arduino/comments/5l3qw4/swinging_pendulum_using_motor_with_encoder_wheel/
 
+DEFINITIVO: https://www.engineer2you.com/2016/12/arduino-motor-speed-control-pwm.html
+
 Motors: Mistumi M25N-2
 
 
