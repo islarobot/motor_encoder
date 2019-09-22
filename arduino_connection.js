@@ -60,7 +60,7 @@ sp.on('open', function (err) {
  
 sp.on("data", function(data) {
 	
-	//console.log('ardu: '+data)
+	console.log('ardu: '+data)
 	
 	var data_string = data.toString();
 	var data_json = arduino_functions.funcion_conversion_ardu_node(data_string);

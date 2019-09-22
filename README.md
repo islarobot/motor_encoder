@@ -16,3 +16,9 @@ bueno: https://create.arduino.cc/projecthub/whitebank/arduino-motor-pid-speed-co
 muy bueno: https://www.reddit.com/r/arduino/comments/5l3qw4/swinging_pendulum_using_motor_with_encoder_wheel/
 
 Motors: Mistumi M25N-2
+
+
+para instalar node
+
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+sudo apt install nodejs
