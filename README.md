@@ -30,3 +30,18 @@ sudo apt install nodejs
 PID TUTORIALES
 
 MUY BUENO: https://www.youtube.com/watch?v=JFTJ2SS4xyA
+
+tabla:
+https://www.youtube.com/watch?v=xEHOP75nRE0
+
+bola:
+https://www.youtube.com/watch?v=r5VaAP09BPA
+
+basket:
+https://www.youtube.com/watch?v=eqhnZmMAU6M
+
+bicyclo:
+https://www.youtube.com/watch?v=SUVtObDFFWY
+
+monocyclo:
+https://www.youtube.com/watch?v=t4sakACzcew
