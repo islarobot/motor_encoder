@@ -24,3 +24,9 @@ para instalar node
 
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt install nodejs
+
+
+
+PID TUTORIALES
+
+MUY BUENO: https://www.youtube.com/watch?v=JFTJ2SS4xyA
