@@ -1,7 +1,7 @@
 //// MODO DEVELOPMENT !!!!11
 
 process.env.NODE_ENV = 'production';
-//process.env.NODE_ENV = 'development';
+process.env.NODE_ENV = 'development';
 
 
 ///https://www.npmjs.com/package/virtual-serialport
@@ -87,7 +87,7 @@ ipc.of.world.on('message',function(data){
 
 console.log(data);
 
-var data_out = arduino_functions.funcion_conversion_node_ardu(data);
+var data_out = arduino_functions.funcion_conversion_node_ardu_2(data);
 
 //console.log(data_out);
 
@@ -122,11 +122,11 @@ if(arduino_connect){
     	
     	//aqui va la funcion que simula lo que haria el arduino. en base al input, devuelve un valor (funcion del grado)
     	
-    	var data_sent = arduino_functions.generate_amplitude_function(data);
+    	//var data_sent = arduino_functions.generate_amplitude_function(data);
     	
     	//console.log('----> 5 ----> '+data_sent);
     	
-      sp.writeToComputer(data_sent);
+      //sp.writeToComputer(data_sent);
     });
   }
 

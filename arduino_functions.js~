@@ -80,7 +80,7 @@ funcion_conversion_node_ardu_2: function(data)
 
 data_object = JSON.parse(data);
 
-var v_string = data_object.v;
+var x_string = data_object.v;
 
 var v_out = zeroFill(v_string,3);
 
