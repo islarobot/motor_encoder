@@ -22,6 +22,7 @@ Motors: Mistumi M25N-2
 
 http://androminarobot.blogspot.com/2016/07/en-este-tutorial-mostramos-como-usar-el.html?m=1
 
+https://forum.arduino.cc/index.php?topic=232451.0
 
 
 para instalar node
