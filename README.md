@@ -20,6 +20,10 @@ DEFINITIVO: https://www.engineer2you.com/2016/12/arduino-motor-speed-control-pwm
 Motors: Mistumi M25N-2
 
 
+http://androminarobot.blogspot.com/2016/07/en-este-tutorial-mostramos-como-usar-el.html?m=1
+
+
+
 para instalar node
 
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
