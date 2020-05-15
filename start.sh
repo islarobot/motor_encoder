@@ -4,7 +4,7 @@
 
 #node server.js
 
-gnome-terminal -- python server.py
+gnome-terminal -- python2.7 server.py
 
 delay 2
 

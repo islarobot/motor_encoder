@@ -1,7 +1,7 @@
 //// MODO DEVELOPMENT !!!!11
 
 process.env.NODE_ENV = 'production';
-process.env.NODE_ENV = 'development';
+//process.env.NODE_ENV = 'development';
 
 
 ///https://www.npmjs.com/package/virtual-serialport
@@ -60,7 +60,8 @@ sp.on('open', function (err) {
  
 sp.on("data", function(data) {
 	
-	console.log('ardu: '+data)
+	console.log('Info enviada ardu-->node: '+ data)
+	//console.log(data)
 	
 	var data_string = data.toString();
 	var data_json = arduino_functions.funcion_conversion_ardu_node(data_string);
@@ -85,9 +86,9 @@ sp.on("data", function(data) {
 ipc.of.world.on('connect',function(){console.log('ipc client connected');});
 ipc.of.world.on('message',function(data){
 
-console.log(data);
+//console.log("Info web->node  "+ data);
 
-var data_out = arduino_functions.funcion_conversion_node_ardu(data);
+var data_out = arduino_functions.funcion_conversion_node_ardu_2(data);
 
 //console.log(data_out);
 
@@ -97,7 +98,7 @@ var data_out = arduino_functions.funcion_conversion_node_ardu(data);
 if(arduino_connect){
 	
 	
-	console.log('node: '+data_out);
+	//console.log('info node->ardu: '+data_out);
 	sp.write(data_out+'\n');
 	
 	}

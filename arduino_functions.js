@@ -76,7 +76,8 @@ return output;
 funcion_conversion_node_ardu_2: function(data)
 {
 
-
+// Convierto {"v":"148"}  en 148\n
+// o convierto {"m":"1"}  en 1\n
 
 data_object = JSON.parse(data);
 
@@ -86,7 +87,7 @@ var v_out = zeroFill(v_string,3);
 
 
 
-var output = v_out;
+var output = v_out+'\n';
 
 return output;
 
