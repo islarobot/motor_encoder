@@ -84,7 +84,7 @@
     <body>
     
     <div class="slidecontainer">
-  <input type="range" min="0" max="512" value="0" class="slider" id="myRange">
+  <input type="range" min="0" max="5300" value="0" class="slider" id="myRange">
 </div>
       <input type="text" id="myText">
       
@@ -100,6 +100,8 @@
 	var y = 0;
 	var xx = 0;
 	var yy = 0;
+	var slide_old;
+	var slide;
 	
 
             var socket = io.connect("localhost:8080"); 
@@ -108,7 +110,7 @@
 		     var slider = document.getElementById("myRange");
 				var output = document.getElementById("myText");
 				output.value = slider.value; // Display the default slider value
-
+						
 
 			slider.oninput = function() {
   					output.value = this.value;
@@ -117,7 +119,8 @@
  				function change_value(){
  				
  				//alert(document.getElementById("myText").value)
-				document.getElementById("myRange").value = Number(document.getElementById("myText").value) 				
+				document.getElementById("myRange").value = Number(document.getElementById("myText").value) 	
+						
  				}
 		
 
@@ -126,13 +129,23 @@
 			
 			setInterval(function () {
 			
-								 	 			
-	 			  var msg_out = {v:slider.value}
+				  		 	 			
+	 			  msg_out = {v:slider.value}
+	 			  
+	 			  
+	 			 
+	 			  if (slider.value != slide_old)
+	 			  {
+				   			  
+	 			  var msg_json = JSON.stringify(msg_out);
+	 			  
+	 			  socket.emit('event', msg_json);
+	 			  
+				  slide_old = slider.value;	 			  
+	 			  }
 	 			  
 	  
-	 			  var msg_json = JSON.stringify(msg_out);
-	 			  console.log(msg_json);
-	 			  socket.emit('event', msg_json);
+
 				
 	
 			}, values_items.speed_transmision);            
