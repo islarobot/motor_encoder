@@ -140,6 +140,8 @@
 	 			  var msg_json = JSON.stringify(msg_out);
 	 			  
 	 			  socket.emit('event', msg_json);
+	 			  socket.emit('event', msg_json);
+	 			  
 	 			  
 				  slide_old = slider.value;	 			  
 	 			  }
