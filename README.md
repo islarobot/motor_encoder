@@ -35,6 +35,7 @@ sudo apt install nodejs
 
 
 
+https://youtu.be/Oai8qMH2yTU
 
 
 
